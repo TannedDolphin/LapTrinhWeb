@@ -67,9 +67,6 @@ if (!isset($_SESSION['username'])) {
 							<a href="./pages/gioithieu.php" class="nav__mb-link">Giới thiệu</a>
 						</li>
 						<li>
-							<a href="" class="nav__mb-link">Danh mục</a>
-						</li>
-						<li>
 							<a href="./pages/lienhe.php" class="nav__mb-link">Liên hệ</a>
 						</li>
 						<li>
@@ -89,42 +86,6 @@ if (!isset($_SESSION['username'])) {
 			<ul class="navbar-list">
 				<li class="navbar-item"><a href="index.php" class="navbar-link">Trang chủ</a></li>
 				<li class="navbar-item"><a href="./pages/gioithieu.php" class="navbar-link">Giới thiệu</a></li>
-				<li class="navbar-item navbar-item-category">
-					<a href="" class="navbar-link">Danh mục</a>
-					<div class="navbar-category">
-					<ul class="navbar-category-list">
-							<li class="navbar-category-item">
-							<?php
-										$conn3 = mysqli_connect("localhost", "root", "", "dacs2");
-										$sql3 = "SELECT * From danhmuc";
-										$ketqua3 = mysqli_query($conn3,$sql3);
-										while($row3=mysqli_fetch_array($ketqua3)){
-											if($row3['id']<4)
-											echo '<a href="./danhmuc.php?iddanhmuc= '.$row3['id'].'" class="category-item__link">'.$row3['tendanhmuc'].'</a>';
-											else 
-											echo "";
-										}
-									?>
-							</li>
-							</ul>
-							<ul class="navbar-category-list">
-							<li class="navbar-category-item">
-							<?php
-										$conn3 = mysqli_connect("localhost", "root", "", "dacs2");
-										$sql3 = "SELECT * From danhmuc";
-										$ketqua3 = mysqli_query($conn3,$sql3);
-										while($row3=mysqli_fetch_array($ketqua3)){
-											if($row3['id']>3 && $row3['id'] < 7)
-											echo '<a href="./danhmuc.php?iddanhmuc= '.$row3['id'].'" class="category-item__link">'.$row3['tendanhmuc'].'</a>';
-											else 
-											echo "";
-										}
-									?>
-							</li>
-							
-						</ul>
-					</div>
-				</li>
 				<li class="navbar-item"><a href="./pages/lienhe.php" class="navbar-link">Liên hệ</a></li>
 
 			</ul>
@@ -169,68 +130,14 @@ if (!isset($_SESSION['username'])) {
 			
 		</div>
 
-		<ul class="header__sort-bar">
-			<li class="header__sort-item">
-				<a href="" class="header__sort-link">Liên quan</a>
-			</li>
-			<li class="header__sort-item">
-				<a href="" class="header__sort-link">Mới nhất</a>
-			</li>
-			<li class="header__sort-item">
-				<a href="" class="header__sort-link">Bán chạy</a>
-			</li>
-			<li class="header__sort-item">
-				<a href="" class="header__sort-link">Giá</a>
-			</li>
-		</ul>
 
-		<div class="container">
+		<div style="display: flex; align-items: center;" class="container">
 			<div class="grid wide">
 				<div class="row sm-gutter grid-content">
-					<div class="column l-2 me-0 s-0">
-						<nav class="category">
-							<h3 class="category-heading">
-								<i class="category-heading-icon fas fa-bars"></i>
-								Danh mục
-							</h3>
-							<ul class="category-list">
-								<li class="category-item category-item--active">
-									
-									<?php
-										$conn = mysqli_connect("localhost", "root", "", "dacs2");
-										$sql = "SELECT * From danhmuc";
-										$ketqua = mysqli_query($conn,$sql);
-										while($row=mysqli_fetch_array($ketqua)){
-											echo '<a href="danhmuc.php?iddanhmuc= '.$row['id'].'" class="category-item__link">'.$row['tendanhmuc'].'</a>';
-										}
-									?>
-									
-								
-								</li>
-							</ul>
-						</nav>
-					</div>
 					<div class="column l-10 me-12 s-12">
 						<div class="home-filter">
-							<span class="label" style="margin-right: 16px;">Sắp xếp theo</span>
-							<button class="home-filter-btn btn">Phổ biến</button>
-							<button class="home-filter-btn btn btn--active">Mới nhất</button>
-							<button class="home-filter-btn btn">Bán chạy</button>
-							<form action="timkiem.php" method="POST">
-							<div class="select-price">
-								<span class="select-label">Giá</span>
-								<i class="fas fa-angle-down"></i>
-								<ul class="select-price-list">
-									<li class="select-price-item">
-									<a href="./pages/upto.php" class="select-price-link">Giá từ thấp đến cao</a>
-									</li>
-									<li class="select-price-item">
-									<a href="./pages/downto.php" class="select-price-link">Giá từ cao đến thấp</a>
-									</li>
-								</ul>
-								
-							</div>
-							</form>
+							<span class="label" style="margin-right: 16px;">Các sản phẩm bán chạy </span>
+							
 						</div>
 						
 
@@ -460,11 +367,6 @@ if (!isset($_SESSION['username'])) {
 						<input class="footer__input" type="text" placeholder="Email address">
 						<input type="submit" value="Gửi">
 					</div>
-				</div>
-			</div>
-			<div class="footer__bottom">
-				<div class="grid wide">
-					<p>© 2021 - Bản quyền thuộc về TT Shoes</p>
 				</div>
 			</div>
 		</div>

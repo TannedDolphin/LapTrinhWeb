@@ -23,7 +23,7 @@ if (!isset($_SESSION['username'])) {
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-<form action="timkiem.php" method="POST">
+<form action="" method="POST">
 	<div class="app">
 		<div class="header">
 			<div class="grid wide">
@@ -31,11 +31,7 @@ if (!isset($_SESSION['username'])) {
 					<div class="logo">
 						<a href="../index.php"><img src="../img/logo.png" width="200" height="110"></a>
 					</div>
-					<div class="search">
-						<input type="text" name="s" class="search-bar" placeholder="Tìm kiếm">
-						<input type="submit" value="Tìm kiếm">
 					
-					</div>
 					<div class="contact">
 						<p>Hotline: 0123456789</p>
 						<p>Email: <a href="mailto:TT Shoesshop@gmail.com" style="color: #333;">TT Shoesshop@gmail.com</a></p>
@@ -47,11 +43,7 @@ if (!isset($_SESSION['username'])) {
 		<form action="../timkiem.php" method="POST">
 		<div class="header-mobile">
 			<div class="header-mb">
-				<div class="search-mb">
-					<input type="text" class="search-bar-mb" placeholder="Tìm kiếm">
-					<input type="submit" value="Tìm ">
-				</div>
-	
+				
 				<a class="shopping-cart-mb" href="../pages/giohang.php">
 					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-cart" class="shopping-cart-icon svg-inline--fa fa-shopping-cart fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="white" d="M528.12 301.319l47.273-208C578.806 78.301 567.391 64 551.99 64H159.208l-9.166-44.81C147.758 8.021 137.93 0 126.529 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24h69.883l70.248 343.435C147.325 417.1 136 435.222 136 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-15.674-6.447-29.835-16.824-40h209.647C430.447 426.165 424 440.326 424 456c0 30.928 25.072 56 56 56s56-25.072 56-56c0-22.172-12.888-41.332-31.579-50.405l5.517-24.276c3.413-15.018-8.002-29.319-23.403-29.319H218.117l-6.545-32h293.145c11.206 0 20.92-7.754 23.403-18.681z"></path></svg>
 				</a>
@@ -75,9 +67,7 @@ if (!isset($_SESSION['username'])) {
 						<li>
 							<a href="" class="nav__mb-link">Giới thiệu</a>
 						</li>
-						<li>
-							<a href="" class="nav__mb-link">Danh mục</a>
-						</li>
+						
 						<li>
 							<a href="" class="nav__mb-link">Liên hệ</a>
 						</li>
@@ -98,24 +88,7 @@ if (!isset($_SESSION['username'])) {
 			<ul class="navbar-list">
 				<li class="navbar-item"><a href="index.php" class="navbar-link">Trang chủ</a></li>
 				<li class="navbar-item"><a href="./pages/gioithieu.php" class="navbar-link">Giới thiệu</a></li>
-				<li class="navbar-item navbar-item-category">
-					<a href="" class="navbar-link">Danh mục</a>
-					<div class="navbar-category">
-						
-						<ul class="navbar-category-list">
-							<li class="navbar-category-item">
-							<?php
-										$conn = mysqli_connect("localhost", "root", "", "dacs2");
-										$sql = "SELECT * From danhmuc";
-										$ketqua = mysqli_query($conn,$sql);
-										while($row=mysqli_fetch_array($ketqua)){
-											echo '<a href="danhmuc.php?iddanhmuc= '.$row['id'].'" class="category-item__link">'.$row['tendanhmuc'].'</a>';
-										}
-									?>
-							</li>
-						</ul>
-					</div>
-				</li>
+				
 				<li class="navbar-item"><a href="../pages/lienhe.php" class="navbar-link">Liên hệ</a></li>
 
 			</ul>
@@ -312,11 +285,7 @@ if (!isset($_SESSION['username'])) {
 					</div>
 				</div>
 			</div>
-			<div class="footer__bottom">
-				<div class="grid wide">
-					<p>© 2021 - Bản quyền thuộc về công ty TT Shoes</p>
-				</div>
-			</div>
+			
 		</div>
 		<div class="scroll-to-top" onclick="scrollToTop();">
 			<i class="scroll-to-top-icon fas fa-chevron-up"></i>
