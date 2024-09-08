@@ -9,7 +9,7 @@
 						<a href="" class="footer-item-link">Trung tâm trợ giúp</a>
 					</li>
 					<li class="footer-item">
-						<a href="" class="footer-item-link">TT Mail</a>
+						<a href="" class="footer-item-link">GG Mail</a>
 					</li>
 					<li class="footer-item">
 						<a href="" class="footer-item-link">Hướng dẫn mua hàng</a>
@@ -20,7 +20,7 @@
 				<h3 class="footer__heading">Giới thiệu</h3>
 				<ul class="footer-list">
 					<li class="footer-item">
-						<a href="" class="footer-item-link">Giới thiệu</a>
+						<a href="./pages/gioithieu.php" class="footer-item-link">Giới thiệu</a>
 					</li>
 					<li class="footer-item">
 						<a href="" class="footer-item-link">Tuyển dụng</a>
@@ -70,7 +70,7 @@
 	</div>
 	<div class="footer__bottom">
 		<div class="grid wide">
-			<p>© 2021 - Bản quyền thuộc về công ty TT Shoes</p>
+			<p>Xin cảm ơn quý khách đã ghé thăm</p>
 		</div>
 	</div>
 </div>

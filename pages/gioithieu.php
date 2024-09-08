@@ -4,7 +4,7 @@ session_start();
 
 <html>
 <head>
-	<title>TT Shoes | Giới thiệu</title>
+	<title>GG Shoes | Giới thiệu</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -84,12 +84,12 @@ session_start();
                 <p>
                     Giày Station ra đời dựa trên niềm yêu thích giày Nike, giày Adidas, giày Vans… của chủ shop bởi vẻ đẹp mê hoặc của các mẫu giày thời thượng này! <br>
                 </p>
-                <img class="img1" src="../img/gioithieu.jpg" alt=""><br>
+                <img class="img1" src="../img/haha.jpg" alt=""><br>
                 <p>Phần trở ngại lớn ở đây là giá tiền của những đôi giày Nike hay Adidas chính hãng thì quá cao so với đa phần các 
-                    bạn trẻ, vì thế mình đã tìm tòi và tạo ra TT Shoes để nhằm đưa đến cho các bạn có niềm yêu thích những đôi 
+                    bạn trẻ, vì thế mình đã tìm tòi và tạo ra GG Shoes để nhằm đưa đến cho các bạn có niềm yêu thích những đôi 
                     giày cá tính này với một mức giá hấp dẫn kèm với chất lượng tốt nhất trong tầm giá. <br>
                     Với tiêu chí mức giá hợp lý, vừa túi tiền nhưng chất lượng lại tốt hơn so với những gì các bạn lại bỏ ra, 
-                    TT Shoes hứa sẽ luôn luôn đưa đến chân của bạn chất lượng giày đảm bảo tốt nhất.
+                    GG Shoes hứa sẽ luôn luôn đưa đến chân của bạn chất lượng giày đảm bảo tốt nhất.
                 </p>
                 <h4 class="h4">Tiêu chí bán hàng</h4>
                 <p>Tiêu chí bán hàng tại Giày Nation đó là làm hài lòng khách hàng tối đa!</p>
@@ -101,7 +101,7 @@ session_start();
                     <li>Giao hàng nhanh chóng.</li>
                 </ul>
                 <h4 class="h4">Sản phẩm</h4>
-                <p>Tất cả sản phẩm giày, dép tại TT Shoes là những mẫu giày Nike Fake 1, giày Adidas Fake 1, 
+                <p>Tất cả sản phẩm giày, dép tại GG Shoes là những mẫu giày Nike Fake 1, giày Adidas Fake 1, 
                     giày Vans Fake 1… Đều được dựa trên nguyên bản gốc của các hãng giày Nike và Adidas, giày Vans…
                 </p>
                 <img class="img2" src="../img/12.jpg" alt=""><br>
@@ -122,7 +122,7 @@ session_start();
                     thiết kế khách nhau để bạn có thể thoải mái phối được với nhiều bộ đồ của mình mà không phải nhàm chán.
                 </p>
                 <p>
-                    Chính vì thế mà TT Shoes muốn được là người đưa đến cho các bạn nhiều mẫu giày hơn, được tiếp cận 
+                    Chính vì thế mà GG Shoes muốn được là người đưa đến cho các bạn nhiều mẫu giày hơn, được tiếp cận 
                     với những mẫu giày huyền thoại, hoặc những mẫu giày mới được ưa chuộng trên thế giới.
                 </p>
 

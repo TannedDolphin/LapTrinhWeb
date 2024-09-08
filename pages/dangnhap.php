@@ -44,7 +44,7 @@ session_start();
 					header('Location: ../admin.php');
 					mysqli_close($conn);
 				}
-		}
+		}}
 	} 
 ?>
 <p>Vui lòng điền thông tin để đăng nhập</p>

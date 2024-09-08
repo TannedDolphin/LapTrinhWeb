@@ -8,7 +8,7 @@ if (!isset($_SESSION['username'])) {
 ?>
 <html>
 <head>
-	<title>TT Shoes | Trang chủ</title>
+	<title>GG Shoes | Trang chủ</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -52,10 +52,7 @@ if (!isset($_SESSION['username'])) {
 					<div class="column l-2 me-0 s-0">
 						<nav class="category">
 							<h3 class="category-heading">
-								<p align="center">***</p>
 								<a >Quản lý chi tiết đơn hàng</a>
-								<p></p>
-								<p align="center">***</p>
 							</h3>
 							<ul class="category-list">
 								<li class="category-item category-item--active">
@@ -73,7 +70,7 @@ if (!isset($_SESSION['username'])) {
 						</div>
 						
 						<!-- BÊN DƯỚI LÀ sản phẩm -->
-						<div class="home-product">
+						<div class="d-product">
 						<div class="row sm-gutter">
 						<style>
 				.page{

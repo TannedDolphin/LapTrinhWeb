@@ -4,7 +4,7 @@ session_start();
 
 <html>
 <head>
-	<title>TT Shoes | Giới thiệu</title>
+	<title>GG Shoes | Liên hệ</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -70,11 +70,11 @@ session_start();
 			<div class="grid wide">
                 <h3 class="h3">Liên hệ Website bán giày online</h3><br>
                 <div>
-                   <p>Facebook: <a href="https://www.facebook.com/">Cửa hàng giày TT Shoes</a></p> 
+                   <p>Facebook: <a href="../index.php">Cửa hàng giày GG Shoes</a></p> 
                 </div>
                 <div class="contact">
 						<p>Hotline: 0123456789</p>
-						<p>Email: <a href="mailto:TTShoesshop@gmail.com" style="color: #333;">TT Shoesshop@gmail.com</a></p>
+						<p>Email: <a href="mailto:22H1120032@gmail.com" style="color: #333;">GGShop@gmail.com</a></p>
 				</div>
                <p>Mọi thắc mắc hay đóng góp ý kiến xin khách hàng hãy liên hệ với cửa hàng chúng tôi!</p>
                <p>Cảm ơn quý khách đã tin tưởng cửa hàng!</p>

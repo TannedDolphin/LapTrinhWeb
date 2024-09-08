@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-	<title>TT Shoes | Trang chủ</title>
+	<title>GG Shoes | Thống kê</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -47,10 +47,7 @@ session_start();
 					<div class="column l-2 me-0 s-0">
 						<nav class="category">
 							<h3 class="category-heading"  align="center">
-								<p >***</p>
-								<a href="">Thống kê</a>
-								<p></p>
-								<p >***</p>
+								<a>Thống kê</a>
 							</h3>
 							<ul class="category-list">
 								<li class="category-item category-item--active">
@@ -64,7 +61,7 @@ session_start();
 						<span class="label" style="margin-right: 16px;"><h2>Thống kê</h2></span>					
 						</div>
 						<!-- BÊN DƯỚI LÀ sản phẩm -->
-						<div class="home-product">
+						<div class="d-product">
 						<div class="row sm-gutter">
 							
 						<style>

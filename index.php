@@ -8,7 +8,7 @@ if (!isset($_SESSION['login'])) {
 ?> -->
 <html>
 <head>
-	<title>TT Shoes | Trang chủ</title>
+	<title>GG Shoes | Trang chủ</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./css/grid.css">
@@ -204,22 +204,14 @@ if (!isset($_SESSION['login'])) {
 						
 	
 		
-		<div class="pagination">
+		<div class="pagenation">
            <?php 
-            // PHẦN HIỂN THỊ PHÂN TRANG
-            // BƯỚC 7: HIỂN THỊ PHÂN TRANG
- 
-            // nếu current_page > 1 và total_page > 1 mới hiển thị nút prev
             if ($current_page > 1 && $total_page > 1){
                 echo '<a href="./index.php?page='.($current_page-1).'"> <font size="6px">
 					<i class="page-control-icon fas fa-angle-left"></i></font>
 			</a>  ';
             }
- 
-            // Lặp khoảng giữa
             for ($i = 1; $i <= $total_page; $i++){
-                // Nếu là trang hiện tại thì hiển thị thẻ span
-                // ngược lại hiển thị thẻ a
                 if ($i == $current_page){
                     echo '<span><font size="6px">'.$i.'</font></span>   ';
                 }
@@ -227,8 +219,6 @@ if (!isset($_SESSION['login'])) {
                     echo '<a href="./index.php?page=  '.$i.'  "><font size="6px">'.$i.'</font></a> | ';
                 }
             }
- 
-            // nếu current_page < $total_page và total_page > 1 mới hiển thị nút prev
             if ($current_page < $total_page && $total_page > 1){
                 echo '<a href="./index.php?page='.($current_page+1).'">  <font size="6px">
 					<i class="page-control-icon fas fa-angle-right"></i></font></a>';

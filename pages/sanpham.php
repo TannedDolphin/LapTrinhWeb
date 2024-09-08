@@ -11,7 +11,7 @@ if (!isset($_SESSION['username'])) {
 ?>
 <html>
 <head>
-	<title>TT Shoes | Sản phẩm</title>
+	<title>GG Shoes | Sản phẩm</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="../css/grid.css">
@@ -265,15 +265,7 @@ if (!isset($_SESSION['username'])) {
 				?> 
 
 			</div>
-			</div>
-			<div id="binhluan" >
-            <input type="hidden" name="idsp" id="idsp" value="<?php echo $row['id']; ?>">
-            <input type="text" name="noidung" id="noidung" placeholder="Nhập bình luận">
-            <input type="submit" value="Bình luận" id="Guibl">
-			</div>
-				</div>
-				</div>
-				</div>    
+			   
 				<!-- SP tuong tu -->
 				<div class="container text-center my-3">
     <h3>Sản phẩm bán chạy</h3>
