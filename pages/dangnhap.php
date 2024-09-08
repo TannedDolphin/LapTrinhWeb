@@ -39,12 +39,11 @@ session_start();
 				$_SESSION['diachi'] = $row['diachi'];
 				$_SESSION['sdt'] = $row['sdt'];
 				$_SESSION['password'] = $password;
-				
-                // Thực thi hành động sau khi lưu thông tin vào session
-                // ở đây tiến hành chuyển hướng trang web tới một trang gọi là index.php
-               	header('Location: ../index.php');
-				mysqli_close($conn);
-			}
+				if($row){
+					$_SESSION['login']=$row['role'];
+					header('Location: ../admin.php');
+					mysqli_close($conn);
+				}
 		}
 	} 
 ?>
